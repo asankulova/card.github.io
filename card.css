@@ -1,60 +1,92 @@
- body {
-     background-image: url('./image/IMG_6222.JPG');
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 1000px;
- }
- 
- .card {
-     background-color: #fff;
-     height: 400px;
-     width: 400px;
-     justify-content: center;
-     flex-direction: column;
- }
- 
- .VM {
-     color: gray;
- }
- 
- .tochkalar {
-     display: flex;
-     justify-content: center;
- }
- 
- .PAYMENT {
-     display: flex;
-     justify-content: center;
- }
- 
- .VMM {
-     justify-content: left;
-     align-items: center;
-     flex-direction: column;
- }
- 
- .ivisa {
-     width: 45px;
- }
- 
- .imaster {
-     width: 45px;
- }
- 
- .imaestro {
-     width: 45px;
- }
- 
- .NS {
-     display: flex;
-     justify-content: center;
-     width: 95%;
-     margin-top: 20px;
-     color: #fff;
-     padding: 10px;
-     border: none;
-     background-color: #24568b;
-     border-radius: 4px;
-     cursor: pointer;
- }
+body {
+    background-image: url('./image/IMG_6222.JPG');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.card {
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tochkalar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.tochka {
+    background-color: #333;
+}
+
+.VM {
+    color: gray;
+}
+
+.PAYMENT {
+    display: flex;
+    justify-content: center;
+}
+
+.VMM {
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ivisa {
+    width: 45px;
+}
+
+.imaster {
+    width: 45px;
+}
+
+.imaestro {
+    width: 45px;
+}
+
+.NS {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    background-color: #24568b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imaestro {
+    width: 45px;
+}
+
+.NS {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    background-color: #24568b;
+    border-radius: 4px;
+    cursor: pointer;
+}
