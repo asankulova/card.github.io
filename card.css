@@ -1,0 +1,35 @@
+body {
+    background-image: url('./image/IMG_6222.JPG');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.card {
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.VM {
+    color: gray;
+}
+
+.tochkalar {
+    display: flex;
+    justify-content: center;
+}
+
+.PAYMENT {
+    display: flex;
+    justify-content: center;
+}
+
+.VMM {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
