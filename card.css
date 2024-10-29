@@ -1,17 +1,20 @@
 body {
-    background-image: url('./image/IMG_6222.JPG');
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
-    margin: 0;
+    height: 100vh;
+    background-image: url('./image/IMG_6222.JPG');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
 }
 
 .card {
     background-color: #fff;
     width: 400px;
-    justify-content: center;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -42,12 +45,21 @@ body {
 
 .VM {
     color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MASTERCARD {
+    font-weight: bold;
 }
 
 .PAYMENT {
-    font-size: 18px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .VMM {
@@ -57,44 +69,61 @@ body {
     display: flex;
 }
 
-.ivisa {
-    width: 45px;
-}
-
-.imaster {
-    width: 45px;
-}
-
+.ivisa,
+.imaster,
 .imaestro {
-    width: 45px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icheck {
+    margin-left: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.line {
+    height: 35px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.line:hover {
+    cursor: pointer;
+    background-color: rgba(153, 153, 153, 0.6);
+}
+
+.lines {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin: 0;
 }
 
 .NS {
-    display: flex;
-    justify-content: center;
-    width: 95%;
-    margin-top: 20px;
-    color: #fff;
+    display: block;
+    width: 100%;
     padding: 10px;
-    border: none;
+    margin-top: 20px;
     background-color: #24568b;
-    border-radius: 4px;
+    color: white;
+    border: none;
     cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-bottom: -20px;
 }
 
-.imaestro {
-    width: 45px;
+.NS:hover {
+    background-color: #1c4a72;
 }
 
-.NS {
+.VMM .line {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    width: 95%;
-    margin-top: 20px;
-    color: #fff;
+    justify-content: start;
     padding: 10px;
-    border: none;
-    background-color: #24568b;
-    border-radius: 4px;
-    cursor: pointer;
+    margin-left: -10px;
 }
